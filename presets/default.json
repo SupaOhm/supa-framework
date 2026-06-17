@@ -1,0 +1,5 @@
+{
+  "name": "default",
+  "agents": ["architect", "engineer", "reviewer"],
+  "workflows": ["feature", "bugfix"]
+}

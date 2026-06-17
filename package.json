@@ -1,0 +1,13 @@
+{
+  "name": "supa-framework",
+  "version": "0.1.0",
+  "description": "AI engineering organization generator for Claude Code",
+  "type": "module",
+  "bin": {
+    "supa": "./cli/index.js"
+  },
+  "scripts": {
+    "start": "node cli/index.js"
+  },
+  "license": "MIT"
+}
