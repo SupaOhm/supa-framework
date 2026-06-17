@@ -4,10 +4,17 @@
   "description": "AI engineering organization generator for Claude Code",
   "type": "module",
   "bin": {
-    "supa": "./cli/index.js"
+    "supa": "./dist/cli/index.js"
   },
   "scripts": {
-    "start": "node cli/index.js"
+    "build": "tsc",
+    "dev": "tsx src/cli/index.ts",
+    "start": "node dist/cli/index.js"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.43",
+    "tsx": "^4.22.4",
+    "typescript": "^5.9.3"
   },
   "license": "MIT"
 }
